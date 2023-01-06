@@ -1,220 +1,215 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
 /**
- * TODO: Добавить кнопки About Us, Contact Us, My Account.
- *
- *
+ * TODO: Change the pictures on a site.
  */
 
 body {
-   margin-left: auto;
-   max-height: 200vh;
+	margin-left: auto;
+	max-height: 200vh;
 }
 
-#logo{
-   font-family: 'Playfair Display', serif;
-   user-select: none;
-   margin: auto;
-   font-size: 100px;
-   letter-spacing: 10px;
-   text-align: center;
-   position: sticky;
+#logo {
+	font-family: 'Playfair Display', serif;
+	user-select: none;
+	margin: auto;
+	font-size: 100px;
+	letter-spacing: 10px;
+	text-align: center;
+	position: sticky;
 }
 
-#underline{
-   font-family: 'Playfair Display', serif;
-   font-size: 40px;
-   margin: auto;
-   color: #333333;
+#underline {
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	margin: auto;
+	color: #333333;
 }
 
-#woman{
-   margin-left: 54px;
-   -webkit-transition: 2s;
-    -moz-transition: 2s;
-    -ms-transition: 2s;
-    -o-transition: 2s;
-    transition: 2s;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+#woman {
+	margin-left: 54px;
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+	-ms-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
-#woman:hover{
-   -webkit-transition: 2s;
-   -moz-transition: 2s;
-   -ms-transition: 2s;
-   -o-transition: 2s;
-   transition: 2s;
-   -webkit-filter: grayscale(0%);
-   filter: grayscale(0%);
+#woman:hover {
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+	-ms-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 
-#womantext{
-   top: 710px;
-   left: 54px;
-   text-transform: uppercase;
-   color: white;
-   width: 370px;
-   background: #00000094;
-   padding: 10px;
-   text-align: center;
-   font: bold 24px/34px 'Playfair Display', serif;
-   position: absolute;
+#womantext {
+	top: 710px;
+	left: 54px;
+	text-transform: uppercase;
+	color: white;
+	width: 370px;
+	background: #00000094;
+	padding: 10px;
+	text-align: center;
+	font: bold 24px/34px 'Playfair Display', serif;
+	position: absolute;
 }
 
-#man{
-   position: absolute;
-   margin-left: 31px;
-   -webkit-transition: 2s;
-   -moz-transition: 2s;
-   -ms-transition: 2s;
-   -o-transition: 2s;
-   transition: 2s;
-   -webkit-filter: grayscale(100%);
-   filter: grayscale(100%);
+#man {
+	position: absolute;
+	margin-left: 31px;
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+	-ms-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
-#man:hover{
-   position: absolute;
-   margin-left: 31px;
-   -webkit-transition: 2s;
-   -moz-transition: 2s;
-   -ms-transition: 2s;
-   -o-transition: 2s;
-   transition: 2s;
-   -webkit-filter: grayscale(0%);
-   filter: grayscale(0%);
+#man:hover {
+	position: absolute;
+	margin-left: 31px;
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+	-ms-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 
-
-
-#mantext{
-   position: absolute;
-   top: 710px;
-   left: 479px;
-   text-transform: uppercase;
-   color: white;
-   width: 371px;
-   background: #00000094;
-   padding: 10px;
-   text-align: center;
-   font: bold 24px/34px 'Playfair Display', serif;
+#mantext {
+	position: absolute;
+	top: 710px;
+	left: 479px;
+	text-transform: uppercase;
+	color: white;
+	width: 371px;
+	background: #00000094;
+	padding: 10px;
+	text-align: center;
+	font: bold 24px/34px 'Playfair Display', serif;
 }
 
-#kids{
-   margin-left: 457px;
-   -webkit-transition: 2s;
-    -moz-transition: 2s;
-    -ms-transition: 2s;
-    -o-transition: 2s;
-    transition: 2s;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+#kids {
+	margin-left: 457px;
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+	-ms-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
-#kids:hover{
-   margin-left: 457px;
-   -webkit-transition: 2s;
-   -moz-transition: 2s;
-   -ms-transition: 2s;
-   -o-transition: 2s;
-   transition: 2s;
-   -webkit-filter: grayscale(0%);
-   filter: grayscale(0%);
+#kids:hover {
+	margin-left: 457px;
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+	-ms-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 
-#kidstext{
-   position: absolute;
-   top: 710px;
-   left: 905px;
-   text-transform: uppercase;
-   color: white;
-   width: 370px;
-   background: #00000094;
-   padding: 10px;
-   text-align: center;
-   font: bold 24px/34px 'Playfair Display', serif;
+#kidstext {
+	position: absolute;
+	top: 710px;
+	left: 905px;
+	text-transform: uppercase;
+	color: white;
+	width: 370px;
+	background: #00000094;
+	padding: 10px;
+	text-align: center;
+	font: bold 24px/34px 'Playfair Display', serif;
 }
 
 .btn-1 {
-   cursor: pointer;
-   letter-spacing: 2px;
-   text-transform: uppercase;
-   font-family: 'Playfair Display', serif;
-   font-size: 20pt;
-   width: 200px;
-   height: 40px;
-   position: absolute;
-   text-align: center;
-   border: solid #000000 2px;
-   color: #000000;
-   z-index: 1;
-   transition: all 0.5s ease-in-out;
-   background: transparent;
-   top: 60px;
-   right: 61px;
-   text-decoration: none;
- }
+	cursor: pointer;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+	font-size: 20pt;
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	text-align: center;
+	border: solid #000000 2px;
+	color: #000000;
+	z-index: 1;
+	transition: all 0.5s ease-in-out;
+	background: transparent;
+	top: 60px;
+	right: 60px;
+	text-decoration: none;
+}
 
- .btn-1:before {
-   content: "";
-   width: 0%;
-   height: 100%;
-   position: absolute;
-   top: 0;
-   right: 0;
-   background-color: #000000;
-   transition: 0.5s ease-in-out;
-   z-index: -1;
- }
+.btn-1:before {
+	content: '';
+	width: 0%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #000000;
+	transition: 0.5s ease-in-out;
+	z-index: -1;
+}
 
- .btn-1:hover:before {
-   width: 100%;
- }
+.btn-1:hover:before {
+	width: 100%;
+}
 
- .btn-1:hover {
-   color: #f1f1f1;
-   border-color: #000000;
- }
+.btn-1:hover {
+	color: #f1f1f1;
+	border-color: #000000;
+}
 
+.btn-2 {
+	cursor: pointer;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+	font-size: 20pt;
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	text-align: center;
+	border: solid #000000 2px;
+	color: #000000;
+	z-index: 1;
+	transition: all 0.5s ease-in-out;
+	background: transparent;
+	top: 60px;
+	left: 60px;
+	text-decoration: none;
+}
 
- .btn-2 {
-   cursor: pointer;
-   letter-spacing: 2px;
-   text-transform: uppercase;
-   font-family: 'Playfair Display', serif;
-   font-size: 20pt;
-   width: 200px;
-   height: 40px;
-   position: absolute;
-   text-align: center;
-   border: solid #000000 2px;
-   color: #000000;
-   z-index: 1;
-   transition: all 0.5s ease-in-out;
-   background: transparent;
-   top: 60px;
-   left: 54px;
-   text-decoration: none;
- }
+.btn-2:before {
+	content: '';
+	width: 0%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000000;
+	transition: 0.5s ease-in-out;
+	z-index: -1;
+}
 
- .btn-2:before {
-   content: "";
-   width: 0%;
-   height: 100%;
-   position: absolute;
-   top: 0;
-   left: 0;
-   background-color: #000000;
-   transition: 0.5s ease-in-out;
-   z-index: -1;
- }
+.btn-2:hover:before {
+	width: 100%;
+}
 
- .btn-2:hover:before {
-   width: 100%;
- }
-
- .btn-2:hover {
-   color: #f1f1f1;
-   border-color: #000000;
- }
+.btn-2:hover {
+	color: #f1f1f1;
+	border-color: #000000;
+}
